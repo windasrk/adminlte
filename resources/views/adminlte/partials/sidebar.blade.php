@@ -1,11 +1,11 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="/" class="brand-link">
+    <a href="/pertanyaan" class="brand-link">
       <img src=" {{ asset('/adminlte/dist/img/AdminLTELogo.png')}} "
            alt="AdminLTE Logo"
            class="brand-image img-circle elevation-3"
            style="opacity: .8">
-      <span class="brand-text font-weight-light" href="/">AdminLTE 3</span>
+      <span class="brand-text font-weight-light" href="/pertanyaan">AdminLTE 3</span>
     </a>
 
     <!-- Sidebar -->
@@ -19,22 +19,23 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item has-treeview">
-            <a href="/" class="nav-link">
+            <a href="/pertanyaan" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Dashboard
+                  List Pertanyaan
                 
               </p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="/data-tables" class="nav-link">
-              <i class="nav-icon fas fa-table"></i>
+            <a href="/pertanyaan/create" class="nav-link">
+              <i class="nav-icon fas fa-edit"></i>
               <p>
-                Tables
+                Input Pertanyaan
+                
               </p>
             </a>
-          </li>
+            </li>
       
         </ul>
       </nav>
